@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+h1 {
+    color: white;
+    font-family: monospace;
+    background-color: rgb(146, 0, 165);
+    font-style: italic;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5%;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  h2 {
+    color: white;
+    font-style: italic;
+    font-family: monospace;
+    background-color: rgb(146, 0, 165);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5%;
+  }
+
+  .error {
+    color: rgb(0, 0, 88);
+    font-family: monospace;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 700px;
+  }
+
+  .deletebutton {
+    background-color: rgb(247, 0, 12);
+    border-color: grey;
+    padding: 5px;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    height: 40px;
+  }
+
+  .submitButton {
+    color: rgb(248, 248, 248);
+    background-color: rgb(32, 220, 107);
+    border-color: grey;
+    padding: 5px;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    font-weight: bold;
+    width: 90px;
+    height: 40px;
+    font-size: large;
+  }
+
+  .form {
+    font-family: monospace;
+  }
+
+  .inputFilter {
+    font-family: monospace;
+  }
+
+  .inputName {
+    font-family: monospace;
+  }
+
+  .inputNumber {
+    font-family: monospace;
+  }
+
+  .persons {
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .personsName {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+  }
+
+  .personsNumber {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+  }
+
+  .personFilter {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: inline-block;
+  }
+
+  .allPhoneNumbersBox {
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+  }
